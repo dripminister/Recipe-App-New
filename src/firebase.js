@@ -4,12 +4,7 @@ import { getStorage } from "firebase/storage"
 import { getAuth, GoogleAuthProvider } from "firebase/auth"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCfgnhie5eXB5dd7KySpvN8hSGNt6_hDyY",
-  authDomain: "recipe-app-d12ec.firebaseapp.com",
-  projectId: "recipe-app-d12ec",
-  storageBucket: "recipe-app-d12ec.appspot.com",
-  messagingSenderId: "274301500507",
-  appId: "1:274301500507:web:8e602b7177129ee616937e"
+//Put your firebase config here
 }
 
 const app = initializeApp(firebaseConfig)
